@@ -1,7 +1,6 @@
 
-export const Storno = () => {
-    return (
-
+export const Storno = () => 
+     (
 <div className="summary__cancel">
     <h3>Storno podmínky</h3>
         <div className="summary__cancel-text">
@@ -14,4 +13,3 @@ export const Storno = () => {
         </div>
 </div>
     )
-}

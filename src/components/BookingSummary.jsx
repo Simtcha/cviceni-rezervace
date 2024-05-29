@@ -31,9 +31,8 @@ const {name, address, city, rating, roomnumber, roomtype, price,
     parking, breakfast, wellness, wifi} = hoteloveDetailyApi
 
 
-export const BookingSummary = () => {
-    return (
-    <>
+export const BookingSummary = () => 
+   ( <>
     <Summary 
         hotel={name}
         address={address}
@@ -65,4 +64,4 @@ export const BookingSummary = () => {
     <Storno />
     </>
     )
-  }
+  
